@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PUTK</title>
+        <link rel="stylesheet" href="index.css"/>
+        <script src="index.js" defer></script>
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <div class="place">
+                    <H1 style="font-size: 100px;">PUTK</H1>
+                </div>
+            </section>
+                <div class="position">
+                    <img src="procesor.jpg" alt="procesor" class="size" id="proc"/>
+                    <img src="ram.jpg" alt="ram"  class="size" id="mem"/>
+                    <img src="zasilacz.jpg" alt="zasilacz" class="size" id="z"/>
+                </div>
+                <div>
+                    <span class="write hidden" id="cpu" style="position: absolute; top: 600px; left: 640px;"> 
+                        Parametry Procesora: 
+                        <ol>
+                            <li>Liczba rdzeni</li>
+                            <li>Częstotliwość taktowania</li>
+                            <li>Rozmiar cache (pamięci podręcznej)</li>
+                            <li>Ilość wątków</li>
+                            <li>Magistrala</li>
+                            <li>TDP (Thermal Design Power)</li>
+                            <li>Kompatybilność</li>
+                        </ol>
+                    </span>
+                    <span class="write hidden" id="ram" style="position: absolute; top: 600px; left: 1140px;">
+                        Parametry Pamięci RAM:
+                        <ol>
+                            <li>Pojemność</li>
+                            <li>Rodzaj pamięci</li>
+                            <li>Częstotliwość taktowania</li>
+                            <li>Architektura</li>
+                            <li>Opóźnienia</li>
+                            <li>Napięcie</li>
+                            <li>Rodzaj modułu</li>
+                            <li>Liczba kanałów</li>
+                        </ol>
+
+                    </span>
+                    <span class="write hidden" id="zas" style="position: absolute; top: 600px; left: 1650px;"> 
+                        Parametry Zasilacza: 
+                        <ol>
+                            <li>Moc znamionowa</li>
+                            <li>Certyfikat sprawnośc</li>
+                            <li>Typ zasilacza (ATX, SFX, TFX, itp.)</li>
+                            <li>Modularność okablowania</li>
+                            <li>Zabezpieczenia (OCP, OVP, SCP, UVP, OPP, OTP)</li>
+                            <li>Złącza zasilające (kable)</li>
+                        </ol>
+                    </span>
+                </div>
+            <section>
+        </main> 
+    </body>
+</html>

@@ -1,0 +1,37 @@
+.place
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+body
+{
+    font-family: Arial;
+}
+
+.size
+{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.position
+{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+.write
+{
+    font-size: 26px;
+}
+
+.hidden
+{
+    display: none;
+}
+
